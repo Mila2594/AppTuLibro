@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppTuLibro.HomePage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="HomePage"
+    BackgroundColor="{StaticResource PageBackgroundColor}">
+    <VerticalStackLayout
+        HorizontalOptions="FillAndExpand"
+        Spacing="20"
+        VerticalOptions="FillAndExpand">
+        <Image
+            Margin="0,60,0,30"
+            HeightRequest="200"
+            Source="icon_app.svg"
+            VerticalOptions="Start" />
+        <Button
+            Margin="70,10"
+            Clicked="OnLibrosClicked"
+            FontAttributes="Bold"
+            HorizontalOptions="Fill"
+            SemanticProperties.Hint="Para acceder a la vista de vender libros"
+            Text="LIBROS" />
+        <Button
+            Margin="70,10"
+            Clicked="OnVenderCliked"
+            FontAttributes="Bold"
+            HorizontalOptions="Fill"
+            SemanticProperties.Hint="Para acceder a la galería de libros en venta"
+            Text="VENDER" />
+
+
+    </VerticalStackLayout>
+</ContentPage>

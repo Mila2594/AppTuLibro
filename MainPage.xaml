@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppTuLibro.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="{StaticResource PageBackgroundColor}">
+
+
+    <Grid
+        Padding="20"
+        HorizontalOptions="FillAndExpand"
+        RowDefinitions="2*, Auto,*,Auto"
+        RowSpacing="10"
+        VerticalOptions="FillAndExpand">
+        <Image
+            x:Name="displayedImage"
+            Grid.Row="0"
+            Margin="3"
+            Aspect="AspectFit"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand" />
+        <Label
+            x:Name="BookTitle"
+            Grid.Row="1"
+            Padding="10,2"
+            FontAttributes="Bold"
+            FontSize="26"
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center"
+            Text="{Binding BookTitle}"
+            TextColor="{StaticResource PrimaryTextColor}" />
+        <ScrollView Grid.Row="2">
+            <CollectionView
+                x:Name="CollectionView"
+                ItemSizingStrategy="MeasureAllItems"
+                ItemsSource="{Binding}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid
+                            Padding="10,1"
+                            ColumnDefinitions="Auto, *, Auto"
+                            HeightRequest="30">
+                            <!--  Valoración en estrellas  -->
+                            <Label
+                                Grid.Column="0"
+                                FontSize="20"
+                                Text="{Binding StarRating}"
+                                TextColor="{StaticResource PrimaryTextColor}"
+                                VerticalOptions="Center" />
+                            <!--  Nombre del usuario  -->
+                            <Label
+                                Grid.Column="1"
+                                Margin="10,0"
+                                FontSize="18"
+                                Text="{Binding SellerName}"
+                                TextColor="{StaticResource PrimaryTextColor}"
+                                VerticalOptions="Center" />
+                            <!--  Precio del ejemplar  -->
+                            <Label
+                                Grid.Column="2"
+                                FontSize="18"
+                                HorizontalOptions="End"
+                                Text="{Binding Price}"
+                                TextColor="{StaticResource PrimaryTextColor}"
+                                VerticalOptions="Center" />
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
+        <Grid
+            Grid.Row="3"
+            Padding="10,5"
+            ColumnDefinitions="*,*"
+            ColumnSpacing="30"
+            HorizontalOptions="FillAndExpand"
+            RowDefinitions="Auto">
+            <Button
+                x:Name="PreviousButton"
+                Grid.Column="0"
+                Clicked="OnPreviousClicked"
+                FontAttributes="Bold"
+                HorizontalOptions="Fill"
+                Style="{StaticResource DefaultButton}"
+                Text="Anterior" />
+            <Button
+                x:Name="NextButton"
+                Grid.Column="1"
+                Clicked="OnNextCliked"
+                FontAttributes="Bold"
+                HorizontalOptions="Fill"
+                Style="{StaticResource DefaultButton}"
+                Text="Siguiente" />
+        </Grid>
+    </Grid>
+</ContentPage>

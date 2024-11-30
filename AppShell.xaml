@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="AppTuLibro.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:AppTuLibro"
+    BackgroundColor="{StaticResource NavigationBarColor}"
+    Shell.FlyoutBehavior="Flyout"
+    Shell.TabBarIsVisible="True">
+
+    <Shell.FlyoutHeader>
+        <VerticalStackLayout
+            Padding="15"
+            BackgroundColor="#212121"
+            VerticalOptions="CenterAndExpand">
+            <Image HeightRequest="120" Source="icon_app.svg" />
+            <Label
+                FontAttributes="Bold"
+                FontSize="26"
+                HorizontalTextAlignment="Center"
+                Text="Tu Libro"
+                TextColor="White" />
+
+        </VerticalStackLayout>
+    </Shell.FlyoutHeader>
+
+    <FlyoutItem Title="Home" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate local:HomePage}"
+            Icon="home.svg"
+            Route="HomePage" />
+
+        <ShellContent
+            Title="Libros"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Icon="book.svg"
+            Route="MainPage" />
+
+        <ShellContent
+            Title="Vender"
+            ContentTemplate="{DataTemplate local:SubirPage}"
+            Icon="vender.svg"
+            Route="SubirPage" />
+    </FlyoutItem>
+
+    <Shell.TitleView>
+        <StackLayout Orientation="Horizontal">
+            <Label
+                FontAttributes="Bold"
+                FontSize="24"
+                HorizontalOptions="Start"
+                Text="Tu Libro"
+                TextColor="White"
+                VerticalOptions="Center" />
+        </StackLayout>
+    </Shell.TitleView>
+
+
+</Shell>

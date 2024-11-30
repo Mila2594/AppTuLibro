@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppTuLibro.SubirPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="SubirPage"
+     BackgroundColor="{StaticResource PageBackgroundColor}">
+    
+    <VerticalStackLayout
+        HorizontalOptions="FillAndExpand"
+        VerticalOptions="CenterAndExpand"
+        Padding="20">
+
+        <!-- Frame inicial con la pregunta al usuario -->
+        <Frame 
+            x:Name="frameInicial" 
+            IsVisible="True" 
+            Padding="30" 
+            CornerRadius="10" 
+            BorderColor="Gray"
+            HeightRequest="255"
+            VerticalOptions="CenterAndExpand"
+            Margin="40">
+            <StackLayout
+                Orientation="Vertical"
+                Spacing="20">
+                <Label 
+                    Text="¿Eres usuario?" 
+                    FontSize="Large" 
+                    HorizontalOptions="Center"/>
+                <Button 
+                    HorizontalOptions="Fill"
+                    x:Name="NewAccountButton"
+                    Text="Crear Cuenta"
+                    FontAttributes="Bold"
+                    TextColor="Black"
+                    BackgroundColor="White"
+                    BorderColor="Black"
+                    BorderWidth="2"
+                    FontSize="18"
+                    Padding="30,15"
+                    Clicked="OnFrameCrearCuentaClicked"/>
+                <Button 
+                    HorizontalOptions="Fill"
+                    x:Name="LoginAccountButton"
+                    Text="Iniciar Sesión"
+                    FontAttributes="Bold"
+                    TextColor="Black"
+                    BackgroundColor="White"
+                    BorderColor="Black"
+                    BorderWidth="2"
+                    FontSize="18"
+                    Padding="30,15"
+                    Clicked="OnFrameLoginCuentaClicked"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Frame para crear cuenta -->
+        <Frame 
+            x:Name="frameCrearCuenta" 
+            IsVisible="False" 
+            Padding="30" 
+            CornerRadius="10" 
+            BorderColor="Gray"
+            HeightRequest="255"
+            VerticalOptions="CenterAndExpand"
+            Margin="40">
+            <Grid 
+                RowDefinitions="Auto,Auto,*"
+                VerticalOptions="FillAndExpand">
+                <Label 
+                    Text="CREAR CUENTA" 
+                    FontSize="Large" 
+                    HorizontalOptions="Center" 
+                    Grid.Row="0"/>
+                <Entry 
+                    Placeholder="Ingresa tu nombre" 
+                    x:Name="entryNombreCrear" 
+                    Margin="0,10"
+                    Grid.Row="1"/>
+                <Button 
+                    Text="Crear cuenta" 
+                    HorizontalOptions="Fill"
+                    VerticalOptions="End"
+                    FontAttributes="Bold"
+                    TextColor="Black"
+                    BackgroundColor="White"
+                    BorderColor="Black"
+                    BorderWidth="2"
+                    FontSize="18"
+                    Padding="30,15"
+                    Clicked="OnCreateAccountCliked"
+                    Grid.Row="2"/>
+            </Grid>
+        </Frame>
+        <!-- Frame para iniciar sesión -->
+        <Frame 
+            x:Name="frameIniciarSesion" 
+            IsVisible="False"
+            Padding="30" 
+            CornerRadius="10" 
+            BorderColor="Gray"
+            HeightRequest="255"
+            VerticalOptions="CenterAndExpand"
+            Margin="40">
+            <Grid
+                RowDefinitions="Auto,Auto,*"
+                VerticalOptions="FillAndExpand">
+                <Label 
+                    Text="INICIAR SESIÓN" 
+                    FontSize="Large" 
+                    HorizontalOptions="Center"
+                    Grid.Row="0"/>
+                <Entry 
+                    Placeholder="Ingresa tu nombre" 
+                    x:Name="entryNombreIniciar"
+                    Margin="0,10"
+                    Grid.Row="1"/>
+                <Button 
+                    HorizontalOptions="Fill"
+                    VerticalOptions="End"
+                    x:Name="LoginButton"
+                    Text="Iniciar Sesión"
+                    FontAttributes="Bold"
+                    TextColor="Black"
+                    BackgroundColor="White"
+                    BorderColor="Black"
+                    BorderWidth="2"
+                    FontSize="18"
+                    Padding="30,15"
+                    Clicked="OnLoginClicked"
+                    Grid.Row="2"/>
+            </Grid>
+        </Frame>
+        <!-- Layout principal para el vendedor (se mostrará después de iniciar sesión) -->
+        <Grid 
+            RowDefinitions="Auto,Auto,*"
+            x:Name="layoutVendedor"
+            VerticalOptions="FillAndExpand"              
+            IsVisible="False"
+            Padding="20,10"
+            RowSpacing="20">
+            <Label 
+                x:Name="labelVendedor" 
+                VerticalOptions="Start"
+                HorizontalOptions="Center"
+                FontSize="28"
+                Margin="10,0"
+                TextColor="White"
+                FontAttributes="Bold"
+                Grid.Row="0"/>
+            <Frame 
+                Padding="20,15" 
+                Margin="10"
+                CornerRadius="10" 
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand"
+                BorderColor="Gray"
+                Grid.Row="1">
+                <StackLayout
+                    Orientation="Vertical"
+                    HorizontalOptions="FillAndExpand">
+                    <Label 
+                        Text="Opciones" 
+                        FontSize="Medium"/>
+                    <StackLayout 
+                        Orientation="Vertical"
+                        HorizontalOptions="FillAndExpand">
+                        <!-- Libros vendidos -->
+                        <StackLayout 
+                            Orientation="Horizontal"
+                            HorizontalOptions="FillAndExpand">
+                            <Label 
+                                Text="Libros vendidos" 
+                                VerticalOptions="Center"
+                                FontSize="16"
+                                HorizontalOptions="StartAndExpand"/>
+                            <Button 
+                                Text="+" 
+                                x:Name="btnLibrosVendidos" 
+                                FontSize="16"
+                                Padding="0"
+                                BackgroundColor="Transparent"
+                                Clicked="OnLibrosVendidosCliked" 
+                                HorizontalOptions="End"/>
+                        </StackLayout>
+                        
+                        <!-- Libros en venta -->
+                        <StackLayout 
+                            Orientation="Horizontal"
+                            HorizontalOptions="FillAndExpand">
+                            <Label 
+                                Text="Libros en venta" 
+                                VerticalOptions="Center" 
+                                FontSize="16"
+                                HorizontalOptions="StartAndExpand"/>
+                            <Button 
+                                Text="+" 
+                                Clicked="OnLibrosEnVentaClicked" 
+                                FontSize="16"
+                                Padding="0"
+                                BackgroundColor="Transparent"
+                                x:Name="btnLibrosEnVenta" 
+                                HorizontalOptions="End" />
+                        </StackLayout>
+                        <ScrollView 
+                            HeightRequest="100">
+                            <ListView 
+                                x:Name="listViewLibrosEnVenta" 
+                                IsVisible="False" >
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextCell Text="{Binding Title}"
+                                                  TextColor="Black"/>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                        </ScrollView>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Button 
+                Text="Vender libro"
+                VerticalOptions="End"
+                Margin="10,0,10,400"
+                FontSize="20"
+                FontAttributes="Bold"
+                Grid.Row="2"
+                IsEnabled="False"/>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

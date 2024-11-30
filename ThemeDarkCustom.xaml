@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary
+    x:Class="AppTuLibro.ThemeDarkCustom"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Color x:Key="PageBackgroundColor">#161616</Color>
+    <Color x:Key="NavigationBarColor">Black</Color>
+    <Color x:Key="PrimaryColor">White</Color>
+    <Color x:Key="SecondaryColor">White</Color>
+    <Color x:Key="PrimaryTextColor">White</Color>
+    <Color x:Key="SecondaryTextColor">#161616</Color>
+    <Color x:Key="TertiaryTextColor">WhiteSmoke</Color>
+    <Color x:Key="TransparentColor">Transparent</Color>
+
+</ResourceDictionary>

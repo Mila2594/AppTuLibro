@@ -1,0 +1,146 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\milac\\source\\repos\\AppTuLibro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BAF9147B-8D3E-4830-A7A3-214E3DE6C066}|AppTuLibro.csproj|c:\\users\\milac\\source\\repos\\apptulibro\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BAF9147B-8D3E-4830-A7A3-214E3DE6C066}|AppTuLibro.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAF9147B-8D3E-4830-A7A3-214E3DE6C066}|AppTuLibro.csproj|c:\\users\\milac\\source\\repos\\apptulibro\\subirpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAF9147B-8D3E-4830-A7A3-214E3DE6C066}|AppTuLibro.csproj|solutionrelative:subirpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAF9147B-8D3E-4830-A7A3-214E3DE6C066}|AppTuLibro.csproj|c:\\users\\milac\\source\\repos\\apptulibro\\vendedoresstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAF9147B-8D3E-4830-A7A3-214E3DE6C066}|AppTuLibro.csproj|solutionrelative:vendedoresstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAF9147B-8D3E-4830-A7A3-214E3DE6C066}|AppTuLibro.csproj|c:\\users\\milac\\source\\repos\\apptulibro\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAF9147B-8D3E-4830-A7A3-214E3DE6C066}|AppTuLibro.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAF9147B-8D3E-4830-A7A3-214E3DE6C066}|AppTuLibro.csproj|c:\\users\\milac\\source\\repos\\apptulibro\\bibliotecaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAF9147B-8D3E-4830-A7A3-214E3DE6C066}|AppTuLibro.csproj|solutionrelative:bibliotecaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAF9147B-8D3E-4830-A7A3-214E3DE6C066}|AppTuLibro.csproj|c:\\users\\milac\\source\\repos\\apptulibro\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAF9147B-8D3E-4830-A7A3-214E3DE6C066}|AppTuLibro.csproj|solutionrelative:vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAF9147B-8D3E-4830-A7A3-214E3DE6C066}|AppTuLibro.csproj|c:\\users\\milac\\source\\repos\\apptulibro\\subirpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BAF9147B-8D3E-4830-A7A3-214E3DE6C066}|AppTuLibro.csproj|solutionrelative:subirpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\milac\\source\\repos\\AppTuLibro\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\milac\\source\\repos\\AppTuLibro\\AppShell.xaml*",
+              "RelativeToolTip": "AppShell.xaml*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-05T15:26:12.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SubirPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\milac\\source\\repos\\AppTuLibro\\SubirPage.xaml.cs",
+              "RelativeDocumentMoniker": "SubirPage.xaml.cs",
+              "ToolTip": "C:\\Users\\milac\\source\\repos\\AppTuLibro\\SubirPage.xaml.cs",
+              "RelativeToolTip": "SubirPage.xaml.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAqwHkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T00:17:58.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\milac\\source\\repos\\AppTuLibro\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\milac\\source\\repos\\AppTuLibro\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T12:20:18.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Vendedor.cs",
+              "DocumentMoniker": "C:\\Users\\milac\\source\\repos\\AppTuLibro\\Vendedor.cs",
+              "RelativeDocumentMoniker": "Vendedor.cs",
+              "ToolTip": "C:\\Users\\milac\\source\\repos\\AppTuLibro\\Vendedor.cs",
+              "RelativeToolTip": "Vendedor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T13:35:04.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BibliotecaService.cs",
+              "DocumentMoniker": "C:\\Users\\milac\\source\\repos\\AppTuLibro\\BibliotecaService.cs",
+              "RelativeDocumentMoniker": "BibliotecaService.cs",
+              "ToolTip": "C:\\Users\\milac\\source\\repos\\AppTuLibro\\BibliotecaService.cs",
+              "RelativeToolTip": "BibliotecaService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwDgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T12:27:25.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VendedoresStorage.cs",
+              "DocumentMoniker": "C:\\Users\\milac\\source\\repos\\AppTuLibro\\VendedoresStorage.cs",
+              "RelativeDocumentMoniker": "VendedoresStorage.cs",
+              "ToolTip": "C:\\Users\\milac\\source\\repos\\AppTuLibro\\VendedoresStorage.cs",
+              "RelativeToolTip": "VendedoresStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T15:17:20.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SubirPage.xaml",
+              "DocumentMoniker": "C:\\Users\\milac\\source\\repos\\AppTuLibro\\SubirPage.xaml",
+              "RelativeDocumentMoniker": "SubirPage.xaml",
+              "ToolTip": "C:\\Users\\milac\\source\\repos\\AppTuLibro\\SubirPage.xaml",
+              "RelativeToolTip": "SubirPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-28T13:08:06.644Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
