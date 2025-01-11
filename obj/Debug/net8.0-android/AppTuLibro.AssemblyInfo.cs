@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppTuLibro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a0764044a6c5bea16df4d7fd3e4675fec071bb9c")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppTuLibro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppTuLibro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

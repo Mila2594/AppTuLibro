@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\milac\\source\\repos\\AppTuLibro\\AppTuLibro.csproj": {}
+    "C:\\Users\\milac\\Desktop\\AppTuLibro\\AppTuLibro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\milac\\source\\repos\\AppTuLibro\\AppTuLibro.csproj": {
+    "C:\\Users\\milac\\Desktop\\AppTuLibro\\AppTuLibro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\milac\\source\\repos\\AppTuLibro\\AppTuLibro.csproj",
+        "projectUniqueName": "C:\\Users\\milac\\Desktop\\AppTuLibro\\AppTuLibro.csproj",
         "projectName": "AppTuLibro",
-        "projectPath": "C:\\Users\\milac\\source\\repos\\AppTuLibro\\AppTuLibro.csproj",
+        "projectPath": "C:\\Users\\milac\\Desktop\\AppTuLibro\\AppTuLibro.csproj",
         "packagesPath": "C:\\Users\\milac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\milac\\source\\repos\\AppTuLibro\\obj\\",
+        "outputPath": "C:\\Users\\milac\\Desktop\\AppTuLibro\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
