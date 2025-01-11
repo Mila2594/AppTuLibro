@@ -7,7 +7,7 @@ La aplicación proporciona una plataforma para ver libros, con información bás
 
 ✨ **Características**  
 - **Vista Home:** Pantalla principal donde se inicia la navegación.
-- **Vista Libro:** Muestra la portada de un libro con información detallada, como:
+- **Vista Libro:** Navegación entre libros mediante los botones "Siguiente" y "Anterior". Muestra la portada de un libro con información detallada, como:
   - Nombre del libro.
   - Valoración (promedio de calificaciones).
   - Nombre del vendedor.
@@ -15,21 +15,11 @@ La aplicación proporciona una plataforma para ver libros, con información bás
 - **Navegación:**
   - **Menú flotante:** Permite navegar rápidamente entre las diferentes secciones de la aplicación.
   - **Barra de navegación:** Permite cambiar entre las vistas principales de la app.
-  - **Flecha hacia atrás:** Permite volver a vistas anteriores.
-- **Lista de libros:**
-  - Navegación entre libros mediante los botones "Siguiente" y "Anterior".
-  - Visualización de un listado de libros con los detalles mencionados.
 - **Vista Vender:** Permite iniciar sesión como vendedor y acceder a un perfil con:
   - Libros en venta.
   - Libros vendidos.
-  - Funciones no habilitadas:
-    - Crear cuenta.
-    - Agregar libros a la lista de venta.
-
-⚠️ **Funcionalidades no disponibles:**  
-- Crear cuenta.
-- Lista de libros en venta.
-- Agregar nuevos libros para la venta.
+   
+⚠️ Funcionalidades crear cuenta, lista de libros en venta o agregar nuevos libros para la venta no están habilitadas.
 
 🚀 **Requisitos**  
 - Sistema operativo: Android.
@@ -40,7 +30,7 @@ La aplicación proporciona una plataforma para ver libros, con información bás
 📂 **Instalación**  
 1. Clona este repositorio:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone https://github.com/Mila2594/AppYourBook.git
 2. Abre el proyecto en Visual Studio.
 3. Configura el emulador Android o conecta un dispositivo físico.
 4. Compila y ejecuta la aplicación.
@@ -51,6 +41,9 @@ Aquí se muestra el ciclo de la app:
 1. Vista Home
 2. Vista Libro
 3. Vista Vender
+<br><br>
+
+<img src="https://github.com/Mila2594/AppYourBook/blob/main/cicloApp.png" alt="Captura de pantalla 2025-01-11 194533"/>
 
 # 🛠️ Tecnologías Utilizadas
 
